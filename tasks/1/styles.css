@@ -1,0 +1,337 @@
+.dev { border: 1px solid red; }
+
+html { margin: 0; width:1980px; height: 1080px; }
+body { display:flex; margin:0; background-color:#fff;opacity:1; font-family: sans-serif;color:black; }
+
+a { text-decoration:none; color:#6A707B; }
+a:hover { text-decoration: underline; color: #4066A5; }
+a:focus { text-decoration: underline; color: #233759;; }
+input { font-size:12px; }
+
+.lpanel { 
+    position: absolute;
+    width: 680px;
+    height: 1080px;
+    left: 0;
+    top: 0;
+    background: linear-gradient(180deg, #FFFFFF 0%, #F2F5FA 100%); 
+}
+
+.topbar { 
+    position: absolute;
+    width: 480px;
+    height: 40px;
+    left: 100px;
+    top: 100px; 
+    padding-top:10px;
+}
+
+.topbar .links ul li { 
+    list-style: none;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.topbar .links, ul, li { display:inline; }
+
+.topbar .links li a { 
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    padding-right:15px;
+}
+
+.topbar .links .logo_peanapple a { 
+    width: 118px;
+    height: 40px;
+    left: 100px;
+    top: 100px;
+    padding-right:0;
+}
+
+.logo_peanapple li a { color:#000; }
+.logo_peanapple li a:hover { color:#4066A5; }
+.logo_peanapple li a:focus { color:#233759; }
+ 
+#Union { 
+    width: 25px;
+    height: 40px;
+    left: 100px;
+    top: 100px;
+}
+
+.heading { 
+    position: absolute;
+    width: 399px;
+    height: 44px;
+    left: 140px;
+    top: 374px;
+    
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 44px;
+    
+    color: #131821;
+}
+.subheading { 
+    position: absolute;
+    width: 400px;
+    height: 56px;
+    left: 140px;
+    top: 433px;
+    
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    
+    color: #6A707B;
+}
+
+.input_email_address { 
+    position: absolute;
+    display: inline-block;
+    width: 663px;
+    height: 70px;
+    left: 100px;
+    top: 539px; 
+ 
+    background: #FFFFFF;
+    border: 1px solid #E3E3E4;
+    box-sizing: border-box;
+    border-left: 4px solid #4066A5;
+}
+
+.input_email_address .input_txt
+{
+    position: absolute;
+    width: 227px;
+    height: 24px;
+    top:20px;
+    border: 0;
+    margin: auto;
+    margin-left: 100px;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #6A707B;
+}
+
+.input_email_address .ic_arrow {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    width: 24px;
+    height: 14px;
+    opacity: 0.3;
+    color:#131821;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.input_txt:hover {
+    color: #000;
+}
+
+.TOS {
+    position: absolute;
+    width: 400px;
+    height: 28px;
+    left: 140px;
+    top: 662px;
+    color: #6A707B;
+}
+
+.TOS .checkmark {
+    display: inline-block;
+    vertical-align: middle;
+    color: #4066A5;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.TOS strong {
+    color:#000;
+}
+
+.TOS input[type=checkbox] { 
+    width:26px;
+    height:26px;
+}
+
+.line{ 
+    position: absolute;
+    width: 400px;
+    height: 1px;
+    left: 140px;
+    top: 740px;
+    background: #E3E3E4; 
+}
+
+.social_icons{ 
+    position: absolute;
+    width: 246px;
+    height: 46px;
+    left: 218px;
+    top: 791px; 
+    border-spacing: 10px;
+    border-collapse: separate;
+}
+
+.dot { height: 46px; width: 46px; background-color: #eee; border-radius: 50%; box-shadow: 0 0 1px #888; display: table-cell; vertical-align: middle; text-align: center; text-decoration: none; margin:10px; border: 2px solid #E3E3E4; box-sizing: border-box; }
+
+.fb { background-image: url("../res/ic_facebook.svg"); background-size: 10px;  background-repeat: no-repeat; background-position: center center; }
+.insta { background-image: url("../res/ic_instagram.svg"); background-size: 20px;  background-repeat: no-repeat; background-position: center center; }
+.tw { background-image: url("../res/ic_twitter.svg"); background-size: 20px;  background-repeat: no-repeat; background-position: center center; }
+.yt { background-image: url("../res/ic_youtube.svg"); background-size: 20px;  background-repeat: no-repeat; background-position: center center; }
+
+.fb:hover { z-index:99; background-color: #4267B2; background-image: url("../res/ic_facebook_hover.svg"); background-size: 10px;  background-repeat: no-repeat; background-position: center center; }
+.insta:hover { z-index:99; background-color: #C13584; background-image: url("../res/ic_instagram_hover.svg"); background-size: 20px;  background-repeat: no-repeat; background-position: center center; }
+.tw:hover { z-index:99; background-color: #1DA1F2; background-image: url("../res/ic_twitter_hover.svg"); background-size: 20px;  background-repeat: no-repeat; background-position: center center; }
+.yt:hover { z-index:99; background-color: #FF0000; background-image: url("../res/ic_youtube_hover.svg"); background-size: 20px;  background-repeat: no-repeat; background-position: center center; }
+
+.fb:focus { background-color: #2F4A80; }
+.insta:focus { background-color: #8F2762; }
+.tw:focus { background-color: #177FBF; }
+.yt:focus { background-color: #CC0000; }
+
+.sp_img { display: table-cell; height: 20px; width: 20px; vertical-align: middle; text-align: center;}
+
+.fl_left { float:left; }
+.fl_right { float:right; }
+.fl_center { text-align:center; }
+
+
+.image_summer {
+    position: absolute;
+    width: 1240px;
+    height: 1080px;
+    left: 680px;
+    top: 0px;
+    z-index:-1;
+}
+
+#image_summer { width:100%; height:100%; }
+
+@media only screen and (max-width: 620px) {
+    
+    body {
+        overflow: hidden;
+    }
+
+    
+    .topbar { 
+        position: absolute;
+        width: 375px;
+        height: 66px;
+        left: 20px;
+        top: 10px; 
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .logo_peanapple li a { visibility:hidden; margin-right:-40px; }
+    .logo_peanapple li a img { visibility:visible; }
+    
+    #Union { 
+        position:absolute;
+        top:0;
+        left:0;
+    }
+    
+    .subscription {
+        position: absolute;
+        width: 335px;
+        height: 371px;
+        left: 20px;
+        top: 254px;
+        background: linear-gradient(180deg, #FFFFFF 0%, #F2F5FA 100%);
+        z-index:2;
+    }
+
+    .subscription .heading {
+        width: 295px;
+        left: 20px;
+        top: 10px;
+        padding-top:10px;
+        font-size: 24px;
+        line-height: 34px;
+    }
+    
+    .subscription .subheading {
+        width: 295px;
+        left: 20px;
+        top: 74px;
+        padding-top:0;
+        font-size: 14px;
+        line-height: 26px;    
+        word-wrap: normal;
+    }
+    
+    .input_email_address {
+        width: 295px;
+        top: 146px;
+        left: 0;
+        margin-left:20px;
+    }
+    
+    .input_email_address .input_txt {
+        margin:0;
+        padding-left:19px;
+    }
+    
+    .input_email_address .ic_arrow {
+        margin:0;
+        right:0;
+        padding-right:23px;
+    }
+    
+    .TOS {
+        top:224px;
+        left:20px;
+        font-size: 16px;
+        margin-top:20px;
+    }
+    
+    .TOS .checkmark {
+        display: inline-block;
+        vertical-align: middle;
+        text-align:center;
+    }
+    
+    .TOS input {
+        width:26px;
+        height:26px;
+    }
+    
+    .line {
+        width: 295px;
+        height: 1px;
+        left: 20px;
+        top: 274px;
+        margin-top:20px;
+    }
+    
+    .social_icons {
+        width: 214px;
+        height: 46px;
+        left: 53px;
+        top: 295px;
+    }
+    
+    .image_summer {
+        position: absolute;
+        width: 1119px;
+        height: 746px;
+        left: -281px;
+        top: 66px;
+        z-index:1;
+    }
+}
