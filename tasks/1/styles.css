@@ -1,12 +1,43 @@
 .dev { border: 1px solid red; }
 
-html { margin: 0; width:1980px; height: 1080px; }
-body { display:flex; margin:0; background-color:#fff;opacity:1; font-family: sans-serif;color:black; }
+html { 
+    margin: 0; 
+    width:1980px; 
+    height: 1080px; 
+}
 
-a { text-decoration:none; color:#6A707B; }
-a:hover { text-decoration: underline; color: #4066A5; }
-a:focus { text-decoration: underline; color: #233759;; }
-input { font-size:12px; }
+body { 
+    display:flex; 
+    margin:0; 
+    background-color:#fff;
+    opacity:1; 
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color:black; 
+}
+
+a { 
+    text-decoration:none; 
+    color:#6A707B;
+}
+
+a:hover { 
+    text-decoration: 
+    underline; 
+    color: #4066A5; 
+}
+
+a:focus { 
+    text-decoration: 
+    underline; color: #233759;
+}
+
+input { 
+    font-size:12px; 
+}
 
 .lpanel { 
     position: absolute;
@@ -226,7 +257,6 @@ input { font-size:12px; }
         overflow: hidden;
     }
 
-    
     .topbar { 
         position: absolute;
         width: 375px;

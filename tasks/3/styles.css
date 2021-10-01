@@ -359,16 +359,18 @@ input {
     .line {
         width: 295px;
         height: 1px;
-        left: 20px;
-        top: 274px;
+        left: 40px;
+        top: 528px;
         margin-top:20px;
+        z-index:2;
     }
     
     .social_icons {
         width: 214px;
         height: 46px;
-        left: 53px;
-        top: 295px;
+        left: 73px;
+        top: 549px;
+        z-index:2;
     }
     
     .image_summer {

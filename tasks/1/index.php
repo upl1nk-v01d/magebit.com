@@ -3,7 +3,7 @@
 <head>
 <title>magebit.com  - exc.1.</title>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=0.95, maximum-scale=0.95, minimum-scale=0.95">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1">
 <link href="styles.css" rel="stylesheet" type="text/css" media="all">
 <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
 <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
