@@ -1,4 +1,4 @@
-# magebit.com
+# magebit.com task files
 
 These files include code of (almost) completed test exercises from company 'magebit'.
 The server installation and web coding took approx. 48 hours, about 3-5 hours every day in 10 days period.
